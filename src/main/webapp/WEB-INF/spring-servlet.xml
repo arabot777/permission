@@ -30,7 +30,7 @@
     <!--核心类,把requestMapping找到对应接口处理-->
     <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />-->
 
-   <!-- <bean class="com.mmall.common.SpringExceptionResolver" />-->
+    <bean class="com.mmall.common.SpringExceptionResolver" />
 
     <!--该以什么格式返回，做视图渲染-->
     <bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />

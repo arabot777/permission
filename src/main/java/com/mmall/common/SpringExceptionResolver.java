@@ -20,7 +20,6 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Slf4j
 public class SpringExceptionResolver implements HandlerExceptionResolver {
-     Logger log = LoggerFactory.getLogger(SpringExceptionResolver.class);
     @Override
     public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) {
         //拿到当前返回的url

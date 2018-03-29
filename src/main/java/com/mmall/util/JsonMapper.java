@@ -22,8 +22,6 @@ import org.slf4j.LoggerFactory;
 @Slf4j
 public class JsonMapper {
 
-    private final static Logger log = LoggerFactory.getLogger(JsonMapper.class);
-
     private static ObjectMapper objectMapper = new ObjectMapper();
 
     static {

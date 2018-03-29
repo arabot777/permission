@@ -2,8 +2,6 @@ package com.mmall.common;
 
 import com.mmall.util.JsonMapper;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -21,8 +19,6 @@ import java.util.Map;
  */
 @Slf4j
 public class HttpInterceptor extends HandlerInterceptorAdapter{
-
-    private final static Logger log = LoggerFactory.getLogger(JsonMapper.class);
 
     private static final String START_TIME = "requestStartTime";
     /**

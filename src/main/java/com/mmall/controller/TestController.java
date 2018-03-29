@@ -24,7 +24,6 @@ import java.util.Map;
 @RequestMapping("/test")
 @Slf4j
 public class TestController {
-    Logger log = LoggerFactory.getLogger(TestController.class);
 
     @RequestMapping("/hello.json")
     @ResponseBody

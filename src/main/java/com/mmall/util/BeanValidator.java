@@ -3,6 +3,8 @@ package com.mmall.util;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import com.mmall.exception.ParamException;
+import org.apache.commons.collections.MapUtils;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
@@ -12,7 +14,8 @@ import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:  用于参数的校验
+ * 校验是基于注解的  比如:@NotBlank 字符串 ，数组或List使用NotEmpty , int为NotNull
  * User: shanliu
  * Date: 2018-03-28
  * Time: 23:51
@@ -56,10 +59,22 @@ public class BeanValidator {
 
     //任何校验使用这一个方法就可
     public static Map<String,String> valideObject(Object first,Object...objects){
-        if (objects!=null&&objects.length>0){
+        if (objects != null && objects.length > 0){
            return validateList(Lists.asList(first,objects));
         }else{
            return validate(first,new Class[0]);
+        }
+    }
+
+    /**
+     * 检查参数异常
+      * @param param
+     * @throws ParamException
+     */
+    public static void check(Object param)throws ParamException{
+        Map<String,String> map = BeanValidator.valideObject(param);
+        if (MapUtils.isNotEmpty(map)){
+            throw new ParamException(map.toString());
         }
     }
 }

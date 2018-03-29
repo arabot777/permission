@@ -126,7 +126,7 @@
             <version>5.2.4.Final</version>
         </dependency>
 
-        <!-- tools -->
+        <!-- tools 常用工具包-->
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>

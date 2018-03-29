@@ -1,5 +1,6 @@
 package com.mmall.common;
 
+import com.mmall.exception.ParamException;
 import com.mmall.exception.PermissionException;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -12,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description: 处理全局异常
  * User: shanliu
  * Date: 2018-03-28
  * Time: 22:55
@@ -30,7 +31,8 @@ public class SpringExceptionResolver implements HandlerExceptionResolver {
         //定义接口请求  .json ,  .page
         //这里要求项目中所有请求json数据，都使用.json结尾
         if (url.endsWith(".json")) {
-            if (ex instanceof PermissionException){
+            //只允许自定义的异常抛给用户
+            if (ex instanceof PermissionException || ex instanceof ParamException){
                 JsonData result = JsonData.fail(ex.getMessage());
                 mv = new ModelAndView("jsonView",result.toMap());
             }else {

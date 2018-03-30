@@ -152,7 +152,7 @@
     WHERE level like #{level} || '.%'
   </select>
 
-  <update id="batchUpdateLevel" parameterMap="map">
+  <update id="batchUpdateLevel" parameterType="map">
     <foreach collection="sysDeptList" item="sysDept" separator=";">
       UPDATE sys_dept
       SET level = #{dept.level}

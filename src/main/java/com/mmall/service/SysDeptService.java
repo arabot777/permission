@@ -32,7 +32,7 @@ public class SysDeptService {
      * 添加部门信息
      * @param param
      */
-    public void svae(DeptParam param){
+    public void save(DeptParam param){
         BeanValidator.check(param);
         if (checkExist(param.getParentId(),param.getName(),param.getId())){
             throw new ParamException("同一层级下存在相同名称的部门");

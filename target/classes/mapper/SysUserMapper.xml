@@ -193,4 +193,12 @@
     FROM sys_user
     WHERE dept_id = #{deptId}
   </select>
+
+  <select id="getPageByDeptId" parameterType="map" resultMap="BaseResultMap">
+     SELECT  <include refid="Base_Column_List" />
+    FROM sys_user
+    WHERE dept_id = #{deptId}
+    ORDER BY username ASC
+    limit #{page.offset}, #{page.pageSize}
+  </select>
 </mapper>

@@ -1,7 +1,16 @@
 package com.mmall.model;
 
+import lombok.*;
+
 import java.util.Date;
 
+@Builder
+//不需要参数的构造方法
+@NoArgsConstructor
+//所有参数的构造方法
+@AllArgsConstructor
+//equal 和 hashcode  进行判断时 仅根据id进行判断
+@EqualsAndHashCode(of = {"id"})
 public class SysAcl {
     private Integer id;
 

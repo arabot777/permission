@@ -1,7 +1,17 @@
 package com.mmall.model;
 
-import java.util.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
+import java.util.Date;
+@Builder
+//不需要参数的构造方法
+@NoArgsConstructor
+//所有参数的构造方法
+@AllArgsConstructor
+@ToString
 public class SysRole {
     private Integer id;
 

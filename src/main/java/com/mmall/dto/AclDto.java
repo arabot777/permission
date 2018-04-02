@@ -1,4 +1,4 @@
-package com.mmall.param;
+package com.mmall.dto;
 
 /**
  * Created with IntelliJ IDEA.

@@ -153,10 +153,10 @@
 
         // zTree
         <!-- 树结构相关 开始 -->
-        var zTreeObj = [];
-        var modulePrefix = 'm_';
-        var aclPrefix = 'a_';
-        var nodeMap = {};
+        var zTreeObj = [];         //权限点
+        var modulePrefix = 'm_';   //权限模块
+        var aclPrefix = 'a_';     //权限点
+        var nodeMap = {};           //权限模块信息
 
         var setting = {
             check: {
@@ -286,7 +286,9 @@
                 }
             });
         }
-
+        /**
+         * 获取被选择的权限id
+         */
         function getTreeSelectedId() {
             var treeObj = $.fn.zTree.getZTreeObj("roleAclTree");
             var nodes = treeObj.getCheckedNodes(true);
@@ -299,6 +301,10 @@
             return v.length > 0 ? v.substring(1): v;
         }
 
+        /**
+         * 通过zTree渲染树
+         * @param aclModuleList
+         */
         function renderRoleTree(aclModuleList) {
             zTreeObj = [];
             recursivePrepareTreeData(aclModuleList);
@@ -307,7 +313,7 @@
             }
             $.fn.zTree.init($("#roleAclTree"), setting, zTreeObj);
         }
-
+        //递归处理
         function recursivePrepareTreeData(aclModuleList) {
             // prepare nodeMap
             if (aclModuleList && aclModuleList.length > 0) {
@@ -328,6 +334,7 @@
                             }
                         });
                     }
+                    //是否存在权限点
                     if ((aclModule.aclModuleList && aclModule.aclModuleList.length > 0) ||
                         (aclModule.aclList && aclModule.aclList.length > 0)) {
                         nodeMap[modulePrefix + aclModule.id] = {
@@ -336,6 +343,7 @@
                             name: aclModule.name,
                             open: hasChecked
                         };
+                        //如果这一层被选中打开，则上一层需要打开
                         var tempAclModule = nodeMap[modulePrefix + aclModule.id];
                         while(hasChecked && tempAclModule) {
                             if(tempAclModule) {
@@ -346,6 +354,7 @@
                                     open: true
                                 }
                             }
+                            //回到上一层
                             tempAclModule = nodeMap[tempAclModule.pId];
                         }
                     }
@@ -377,7 +386,9 @@
                 }
             })
         });
-
+        /**
+         * 保存角色权限
+         */
         $(".saveRoleAcl").click(function (e) {
             e.preventDefault();
             if (lastRoleId == -1) {

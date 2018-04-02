@@ -7,105 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ece54c8-127a-4052-b69a-80ed3efc203f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/beans/CacheKeyConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/beans/LogType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/beans/Mail.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/beans/PageQuery.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/beans/PageResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/RequestHolder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclModuleController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/filter/LoginFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/param/AclDto.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/param/AclModuleParam.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/param/AclParam.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/param/RoleParam.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysAclModuleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysAclService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysCoreService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysRoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/IpUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/MailUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/acl.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/common/page.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/StringUtil.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/common/HttpInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/HttpInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysUserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysUserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclModuleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclModuleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleAclMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleAclMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleUserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysUserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/TestDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysAcl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysAcl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysAclModule.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysAclModule.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysRole.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/model/SysRole.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysDeptService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysDeptService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/param/AclDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclDto.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/SysUserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysAclMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysAclMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/HttpInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/common/HttpInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/SysUserController.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/SysUserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysAclMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysAclMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysAclModuleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysAclModuleMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleAclMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleAclMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleUserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysRoleUserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysUserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/SysUserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/TestDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/beans/Mail.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/beans/Mail.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/SysRoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/SysRoleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dto/AclModuleLevelDto.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dto/AclModuleLevelDto.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/model/SysAcl.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/model/SysAcl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/model/SysAclModule.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/model/SysAclModule.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/model/SysDept.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/model/SysDept.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/model/SysRole.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/model/SysRole.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/model/SysUser.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/model/SysUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysDeptService.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysDeptService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/param/AclDto.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysRoleService.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysRoleService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService$2.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService$2.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysTreeService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/SysUserService.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/SysUserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysAclMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysAclMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysAclModuleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysAclModuleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TestMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/IpUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/mmall/util/IpUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleUserMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/permission/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/permission/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/common/HttpInterceptor.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/common/HttpInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/SysUserController.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/SysUserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/UserController.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysAclMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysAclMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysAclModuleMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysAclModuleMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleAclMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleAclMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleUserMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysRoleUserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysUserMapper.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/SysUserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dao/TestDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/beans/Mail.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/beans/Mail.class" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/SysRoleController.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/controller/SysRoleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dto/AclModuleLevelDto.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/dto/AclModuleLevelDto.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysAcl.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysAcl.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysAclModule.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysAclModule.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysDept.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysDept.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysRole.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysRole.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysUser.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/model/SysUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysDeptService.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysDeptService.class" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/param/AclDto.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysRoleService.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysRoleService.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService$1.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService$2.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService$2.class" />
       <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysTreeService.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysUserService.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/service/SysUserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysAclMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysAclMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysAclModuleMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysAclModuleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/TestMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/views/dept.jsp" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/views/dept.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/util/IpUtil.class" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/com/mmall/util/IpUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/classes/mapper/SysRoleUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/permission/WEB-INF/views/role.jsp" afterPath="$PROJECT_DIR$/target/permission/WEB-INF/views/role.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,61 +80,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/HttpInterceptor.java">
+      <file leaf-file-name="role.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="309">
+              <caret line="408" column="46" lean-forward="true" selection-start-line="408" selection-start-column="46" selection-end-line="408" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RequestHolder.java">
+      <file leaf-file-name="SysRoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="626">
+              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/filter/LoginFilter.java">
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/Java/jdk1.8.0_40/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-507">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/JsonData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-417">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="297">
+              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -230,6 +155,12 @@
       <find>green aclModule-edit</find>
       <find>dept-edit</find>
       <find>aclModule-edit</find>
+      <find>selectFirstTab</find>
+      <find>getRoleIdListByUserId</find>
+      <find>debu</find>
+      <find>getAclIdListByRoleIdList</find>
+      <find>sysRoleAclMapper</find>
+      <find>lastRoleId</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Workspaces\permission\src</dir>
@@ -246,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/JsonMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/LevelUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/model/SysDept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysDeptMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/param/DeptParam.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" />
@@ -286,8 +213,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/SysRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/param/AclDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleUserMapper.java" />
@@ -295,8 +220,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/SysCoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/model/SysAcl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dto/AclDto.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java" />
       </list>
     </option>
   </component>
@@ -316,11 +247,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.5.2" />
+        <option name="mavenHome" value="F:/AppData/maven3.2.5" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="22" />
     <option name="width" value="1636" />
     <option name="height" value="955" />
@@ -401,9 +332,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -411,6 +342,11 @@
             <path>
               <item name="permission" type="b2602c69:ProjectViewProjectNode" />
               <item name="permission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="permission" type="b2602c69:ProjectViewProjectNode" />
@@ -465,6 +401,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -495,6 +461,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -502,7 +478,26 @@
               <item name="permission" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="StringUtil" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="permission" type="b2602c69:ProjectViewProjectNode" />
@@ -510,16 +505,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="permission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,25 +517,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/param" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/dto" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Workspaces\permission\src\main\webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/mmall/model" />
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/src/main/java/com/mmall/dao" />
       <recent name="$PROJECT_DIR$/generator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Workspaces\permission\src\main\java\com\mmall\util" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/param" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mmall/dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -760,11 +745,12 @@
       <workItem from="1522485418892" duration="3828000" />
       <workItem from="1522489431372" duration="2247000" />
       <workItem from="1522502445402" duration="12479000" />
+      <workItem from="1522646528360" duration="11434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97796000" />
+    <option name="totallyTimeSpent" value="109230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,12 +762,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1636" height="955" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34651163" sideWeight="0.50752825" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.497558" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,9 +775,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34651163" sideWeight="0.49247175" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25353646" sideWeight="0.49247175" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38023257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37976062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -802,17 +786,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25697675" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20451693" sideWeight="0.49288255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.4858569" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22835633" sideWeight="0.50711745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17377399" sideWeight="0.5141431" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -826,134 +812,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysAclModuleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="188" column="11" lean-forward="false" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
-          <folding>
-            <marker date="1522486684299" expanded="true" signature="1202:1312" ph="select from sys_acl_module" />
-            <marker date="1522486684299" expanded="true" signature="1399:1463" ph="delete from sys_acl_module... " />
-            <marker date="1522486684299" expanded="true" signature="1549:1999" ph="insert into sys_acl_module... " />
-            <marker date="1522486684299" expanded="true" signature="3819:4742" ph="update sys_acl_module... " />
-            <marker date="1522486684299" expanded="true" signature="4840:5304" ph="update sys_acl_module... " />
-            <marker date="1522486684299" expanded="true" signature="5393:5502" ph="select from sys_acl_module" />
-            <marker date="1522486684299" expanded="true" signature="5653:5750" ph="UPDATE sys_acl_module... " />
-            <marker date="1522486684299" expanded="true" signature="6135:6202" ph="SELECT FROM sys_acl_module" />
-            <marker date="1522486684299" expanded="true" signature="6289:6365" ph="SELECT count... sys_acl_module" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dto/DeptLevelDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/SysAclModuleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="69" column="78" lean-forward="false" selection-start-line="69" selection-start-column="78" selection-end-line="69" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclModuleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/model/SysAclModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1024#1025#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysDeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclModuleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#989#990#0" expanded="false" />
-            <element signature="e#1463#1464#0" expanded="false" />
-            <element signature="e#1534#1535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysAclMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="219" column="11" lean-forward="false" selection-start-line="219" selection-start-column="11" selection-end-line="219" selection-end-column="11" />
-          <folding>
-            <marker date="1522486725153" expanded="true" signature="1340:1443" ph="select from sys_acl" />
-            <marker date="1522486725153" expanded="true" signature="1530:1587" ph="delete from sys_acl... " />
-            <marker date="1522486725153" expanded="true" signature="1667:2191" ph="insert into sys_acl... " />
-            <marker date="1522486725153" expanded="true" signature="4269:5359" ph="update sys_acl... " />
-            <marker date="1522486725153" expanded="true" signature="5451:5989" ph="update sys_acl... " />
-            <marker date="1522486725153" expanded="true" signature="6331:6404" ph="SELECT count... sys_acl" />
-            <marker date="1522486725153" expanded="true" signature="6505:6680" ph="SELECT FROM sys_acl" />
-            <marker date="1522486725153" expanded="true" signature="6747:6807" ph="SELECT FROM sys_acl" />
-            <marker date="1522486725153" expanded="true" signature="7171:7254" ph="SELECT FROM sys_acl" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/param/AclParam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
@@ -966,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,16 +839,6 @@
           <folding>
             <element signature="e#2963#2971#0" expanded="false" />
             <element signature="e#3053#3061#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1031,40 +883,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
           <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="197" column="49" lean-forward="false" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
-          <folding>
-            <marker date="1522424594234" expanded="true" signature="1300:1404" ph="select from sys_user" />
-            <marker date="1522424594234" expanded="true" signature="1491:1549" ph="delete from sys_user... " />
-            <marker date="1522424594234" expanded="true" signature="1630:2128" ph="insert into sys_user... " />
-            <marker date="1522424594234" expanded="true" signature="4112:5147" ph="update sys_user... " />
-            <marker date="1522424594234" expanded="true" signature="5240:5759" ph="update sys_user... " />
-            <marker date="1522424594234" expanded="true" signature="5856:5979" ph="select from sys_user" />
-            <marker date="1522424594234" expanded="true" signature="6479:6542" ph="SELECT count... sys_user" />
-            <marker date="1522424594234" expanded="true" signature="6639:6800" ph="SELECT FROM sys_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/function/Function.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/ztree/zTreeStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,55 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="113" column="63" lean-forward="false" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
-          <folding>
-            <marker date="1522407573495" expanded="true" signature="6811:6922" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1614">
-          <caret line="321" column="57" lean-forward="false" selection-start-line="321" selection-start-column="57" selection-end-line="321" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="150" column="11" lean-forward="false" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-          <folding>
-            <marker date="1522543283059" expanded="true" signature="1038:1142" ph="select from sys_role" />
-            <marker date="1522543283059" expanded="true" signature="1229:1287" ph="delete from sys_role... " />
-            <marker date="1522543283059" expanded="true" signature="1368:1725" ph="insert into sys_role... " />
-            <marker date="1522543283059" expanded="true" signature="3240:3974" ph="update sys_role... " />
-            <marker date="1522543283059" expanded="true" signature="4067:4438" ph="update sys_role... " />
-            <marker date="1522543283059" expanded="true" signature="4506:4567" ph="SELECT FROM sys_role" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1130,127 +907,6 @@
         <state relative-caret-position="85">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleAclMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/SysCoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1135#1144#0" expanded="false" />
-            <element signature="e#2069#2070#0" expanded="false" />
-            <element signature="e#2096#2097#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding>
-            <element signature="e#6423#6424#0" expanded="false" />
-            <element signature="e#6477#6478#0" expanded="false" />
-            <element signature="e#6662#6663#0" expanded="false" />
-            <element signature="e#6718#6719#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/param/AclDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/model/SysAcl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1839">
-          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#596#597#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#717#718#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#903#904#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1043#1044#0" expanded="false" />
-            <element signature="e#1077#1078#0" expanded="false" />
-            <element signature="e#1132#1133#0" expanded="false" />
-            <element signature="e#1178#1179#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1234#1235#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="false" />
-            <element signature="e#1362#1363#0" expanded="false" />
-            <element signature="e#1389#1390#0" expanded="false" />
-            <element signature="e#1430#1431#0" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1525#1526#0" expanded="false" />
-            <element signature="e#1570#1571#0" expanded="false" />
-            <element signature="e#1606#1607#0" expanded="false" />
-            <element signature="e#1637#1638#0" expanded="false" />
-            <element signature="e#1663#1664#0" expanded="false" />
-            <element signature="e#1702#1703#0" expanded="false" />
-            <element signature="e#1732#1733#0" expanded="false" />
-            <element signature="e#1765#1766#0" expanded="false" />
-            <element signature="e#1794#1795#0" expanded="false" />
-            <element signature="e#1838#1839#0" expanded="false" />
-            <element signature="e#1905#1906#0" expanded="false" />
-            <element signature="e#1940#1941#0" expanded="false" />
-            <element signature="e#1971#1972#0" expanded="false" />
-            <element signature="e#2019#2020#0" expanded="false" />
-            <element signature="e#2092#2093#0" expanded="false" />
-            <element signature="e#2128#2129#0" expanded="false" />
-            <element signature="e#2162#2163#0" expanded="false" />
-            <element signature="e#2214#2215#0" expanded="false" />
-            <element signature="e#2260#2261#0" expanded="false" />
-            <element signature="e#2296#2297#0" expanded="false" />
-            <element signature="e#2328#2329#0" expanded="false" />
-            <element signature="e#2378#2379#0" expanded="false" />
-            <element signature="e#2454#2455#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,22 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1312,46 +953,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/JsonData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
+        <state relative-caret-position="351">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RequestHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="351">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="89" column="24" lean-forward="false" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="2376">
+          <caret line="88" column="24" lean-forward="false" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1360,14 +984,294 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/HttpInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="-704">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2529#2530#0" expanded="false" />
+            <element signature="e#2567#2568#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dto/DeptLevelDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="45" column="58" lean-forward="false" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="197" column="49" lean-forward="false" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
+          <folding>
+            <marker date="1522646450557" expanded="true" signature="1300:1404" ph="select from sys_user" />
+            <marker date="1522646450557" expanded="true" signature="1491:1549" ph="delete from sys_user... " />
+            <marker date="1522646450557" expanded="true" signature="1630:2128" ph="insert into sys_user... " />
+            <marker date="1522646450557" expanded="true" signature="4112:5147" ph="update sys_user... " />
+            <marker date="1522646450557" expanded="true" signature="5240:5759" ph="update sys_user... " />
+            <marker date="1522646450557" expanded="true" signature="5856:5979" ph="select from sys_user" />
+            <marker date="1522646450557" expanded="true" signature="6479:6542" ph="SELECT count... sys_user" />
+            <marker date="1522646450557" expanded="true" signature="6639:6800" ph="SELECT FROM sys_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="139" column="11" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+          <folding>
+            <marker date="1522651440090" expanded="true" signature="910:1019" ph="select from sys_role_user" />
+            <marker date="1522651440090" expanded="true" signature="1106:1169" ph="delete from sys_role_user... " />
+            <marker date="1522651440090" expanded="true" signature="1254:1554" ph="insert into sys_role_user... " />
+            <marker date="1522651440090" expanded="true" signature="2812:3383" ph="update sys_role_user... " />
+            <marker date="1522651440090" expanded="true" signature="3480:3780" ph="update sys_role_user... " />
+            <marker date="1522651440090" expanded="true" signature="3874:3941" ph="SELECT role_... sys_role_user" />
+            <marker date="1522651440090" expanded="true" signature="4034:4101" ph="SELECT user_... sys_role_user" />
+            <marker date="1522651440090" expanded="true" signature="4170:4225" ph="DELETE FROM sys_role_user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="150" column="11" lean-forward="false" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+          <folding>
+            <marker date="1522646450555" expanded="true" signature="1038:1142" ph="select from sys_role" />
+            <marker date="1522646450555" expanded="true" signature="1229:1287" ph="delete from sys_role... " />
+            <marker date="1522646450555" expanded="true" signature="1368:1725" ph="insert into sys_role... " />
+            <marker date="1522646450555" expanded="true" signature="3240:3974" ph="update sys_role... " />
+            <marker date="1522646450555" expanded="true" signature="4067:4438" ph="update sys_role... " />
+            <marker date="1522646450555" expanded="true" signature="4506:4567" ph="SELECT FROM sys_role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysRoleAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dto/AclDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysAclModuleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding>
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#1534#1535#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/SysCoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#1135#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/model/SysAcl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dto/AclModuleLevelDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/SysTreeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <element signature="e#8312#8313#0" expanded="true" />
+            <element signature="e#8368#8369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/SysAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="210" column="76" lean-forward="true" selection-start-line="210" selection-start-column="76" selection-end-line="210" selection-end-column="76" />
+          <folding>
+            <marker date="1522646450551" expanded="true" signature="1340:1443" ph="select from sys_acl" />
+            <marker date="1522646450551" expanded="true" signature="1530:1587" ph="delete from sys_acl... " />
+            <marker date="1522646450551" expanded="true" signature="1667:2191" ph="insert into sys_acl... " />
+            <marker date="1522646450551" expanded="true" signature="4269:5359" ph="update sys_acl... " />
+            <marker date="1522646450551" expanded="true" signature="5451:5989" ph="update sys_acl... " />
+            <marker date="1522646450551" expanded="true" signature="6331:6404" ph="SELECT count... sys_acl" />
+            <marker date="1522646450551" expanded="true" signature="6505:6680" ph="SELECT FROM sys_acl" />
+            <marker date="1522646450551" expanded="true" signature="6747:6807" ph="SELECT FROM sys_acl" />
+            <marker date="1522646450551" expanded="true" signature="7171:7254" ph="SELECT FROM sys_acl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SysRoleAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2550">
+          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding>
+            <marker date="1522654057184" expanded="true" signature="905:1013" ph="select from sys_role_acl" />
+            <marker date="1522654057184" expanded="true" signature="1100:1162" ph="delete from sys_role_acl... " />
+            <marker date="1522654057184" expanded="true" signature="1246:1543" ph="insert into sys_role_acl... " />
+            <marker date="1522654057184" expanded="true" signature="2794:3361" ph="update sys_role_acl... " />
+            <marker date="1522654057184" expanded="true" signature="3457:3754" ph="update sys_role_acl... " />
+            <marker date="1522654057184" expanded="true" signature="4091:4145" ph="DELETE FROM sys_role_acl... " />
+            <marker date="1522654057184" expanded="true" signature="4586:4650" ph="SELECT role_... sys_role_acl" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="408" column="46" lean-forward="true" selection-start-line="408" selection-start-column="46" selection-end-line="408" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/base/Splitter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_40/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1432,6 +1336,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1439,7 +1344,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.8</last-edited>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

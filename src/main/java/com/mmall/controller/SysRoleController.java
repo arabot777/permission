@@ -4,6 +4,8 @@ import com.mmall.common.JsonData;
 import com.mmall.param.RoleParam;
 import com.mmall.service.SysRoleService;
 import com.mmall.service.SysTreeService;
+import com.mmall.util.StringUtil;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -61,6 +64,7 @@ public class SysRoleController {
     @RequestMapping("/changeAcls.json")
     @ResponseBody
     public JsonData changeAcls (@RequestParam("roleId") int roleId,@RequestParam("aclIds") String aclIds){
+        List<Integer> aclIdList = StringUtil.splitToListInt(aclIds);
         return JsonData.success();
     }
 }

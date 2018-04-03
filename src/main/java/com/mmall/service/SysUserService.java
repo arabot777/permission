@@ -96,4 +96,8 @@ public class SysUserService {
         }
         return PageResult.<SysUser>builder().build();
     }
+
+    public List<SysUser> getAll() {
+        return sysUserMapper.getAll();
+    }
 }

@@ -39,7 +39,28 @@ public class SysTreeService {
     @Resource
     private SysAclMapper sysAclMapper;
 
-    //权限模块+权限点
+    /**
+     * 某个用户分配的权限点组成的树
+     * @param userId
+     * @return
+     */
+    public List<AclModuleLevelDto> userAclTree(int userId) {
+        List<SysAcl> userAclList = sysCoreService.getUserAclList(userId);
+        List<AclDto> aclDtoList = Lists.newArrayList();
+        for (SysAcl acl : userAclList) {
+            AclDto dto = AclDto.adapt(acl);
+            dto.setHasAcl(true);
+            dto.setChecked(true);
+            aclDtoList.add(dto);
+        }
+        return aclListToTree(aclDtoList);
+    }
+
+    /**
+     * 权限模块+权限点
+     * @param roleId
+     * @return
+     */
     public List<AclModuleLevelDto> roleTree(int roleId){
         //1.当前用户已分配的权限点
         List<SysAcl> userAclList = sysCoreService.getCurrentUserAclList();
@@ -143,12 +164,6 @@ public class SysTreeService {
             }
         }
     }
-
-
-
-
-
-
     /**
      * 获取部门树
      * @return
@@ -234,4 +249,6 @@ public class SysTreeService {
             return o1.getSeq() - o2.getSeq();
         }
     };
+
+
 }

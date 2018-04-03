@@ -6,11 +6,14 @@ import com.mmall.dao.SysAclMapper;
 import com.mmall.dao.SysRoleAclMapper;
 import com.mmall.dao.SysRoleUserMapper;
 import com.mmall.model.SysAcl;
+import com.mmall.model.SysUser;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Created with IntelliJ IDEA.
@@ -76,6 +79,46 @@ public class SysCoreService {
      * @return
      */
     public boolean isSuperAdmin(){
-        return true;
+        //自定义假的超级管理员
+        SysUser sysUser = RequestHolder.getCurrentUser();
+        if (sysUser.getMail().contains("admin")){
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * 校验用户是否拥有访问权限
+     * @param url
+     * @return
+     */
+    public boolean hasUrlAcl (String url){
+        if (isSuperAdmin()) {
+            return true;
+        }
+        List<SysAcl> aclList = sysAclMapper.getByUrl(url);
+        if (CollectionUtils.isEmpty(aclList)) {
+            return true;
+        }
+        List<SysAcl> userAclList = getCurrentUserAclList();
+        /*List<SysAcl> userAclList = getCurrentUserAclListFromCache();*/
+        Set<Integer> userAclIdSet = userAclList.stream().map(acl -> acl.getId()).collect(Collectors.toSet());
+
+        boolean hasValidAcl = false;
+        // 规则：只要有一个权限点有权限，那么我们就认为有访问权限
+        for (SysAcl acl : aclList) {
+            // 判断一个用户是否具有某个权限点的访问权限
+            if (acl == null || acl.getStatus() != 1) { // 权限点无效
+                continue;
+            }
+            hasValidAcl = true;
+            if (userAclIdSet.contains(acl.getId())) {
+                return true;
+            }
+        }
+        if (!hasValidAcl) {
+            return true;
+        }
+        return false;
     }
 }

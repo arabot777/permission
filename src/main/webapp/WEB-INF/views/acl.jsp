@@ -562,7 +562,7 @@
             }
         }
         /**
-         * 权限的编辑功能绑定
+         * 权限点的编辑功能绑定
          */
         function bindAclClick() {
             $(".acl-role").click(function (e) {

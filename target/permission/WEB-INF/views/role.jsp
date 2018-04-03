@@ -144,8 +144,10 @@
         
         var roleListTemplate = $("#roleListTemplate").html();
         Mustache.parse(roleListTemplate);
+        //选中用户模板
         var selectedUsersTemplate = $("#selectedUsersTemplate").html();
         Mustache.parse(selectedUsersTemplate);
+        //未选择用户模板
         var unSelectedUsersTemplate = $("#unSelectedUsersTemplate").html();
         Mustache.parse(unSelectedUsersTemplate);
         
@@ -431,6 +433,7 @@
                 }
             })
         }
+        //点击标签
         $("#roleTab a[data-toggle='tab']").on("shown.bs.tab", function(e) {
             if(lastRoleId == -1) {
                 showMessage("加载角色关系","请先在左侧选择操作的角色", false);
@@ -445,6 +448,10 @@
             }
         });
 
+        /**
+         * 加载角色用户关系
+         * @param selectedRoleId
+         */
         function loadRoleUser(selectedRoleId) {
             $.ajax({
                 url: "/sys/role/users.json",
@@ -457,7 +464,7 @@
                         var renderedSelect = Mustache.render(selectedUsersTemplate, {userList: result.data.selected});
                         var renderedUnSelect = Mustache.render(unSelectedUsersTemplate, {userList: result.data.unselected});
                         $("#roleUserList").html(renderedSelect + renderedUnSelect);
-
+                        //多选渲染
                         if(!hasMultiSelect) {
                             $('select[name="roleUserList"]').bootstrapDualListbox({
                                 showFilterInputs: false,
@@ -474,7 +481,7 @@
                 }
             });
         }
-
+        //保存角色用户
         $(".saveRoleUser").click(function (e) {
             e.preventDefault();
             if (lastRoleId == -1) {

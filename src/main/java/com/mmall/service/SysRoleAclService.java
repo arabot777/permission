@@ -28,7 +28,9 @@ public class SysRoleAclService {
     private SysLogMapper sysLogMapper;
 
     public void changeRoleAcls(Integer roleId, List<Integer> aclIdList) {
+        //取出当前角色分配过得id
         List<Integer> originAclIdList = sysRoleAclMapper.getAclIdListByRoleIdList(Lists.newArrayList(roleId));
+        //判断是否做了重复点击操作
         if (originAclIdList.size() == aclIdList.size()) {
             Set<Integer> originAclIdSet = Sets.newHashSet(originAclIdList);
             Set<Integer> aclIdSet = Sets.newHashSet(aclIdList);
@@ -41,8 +43,14 @@ public class SysRoleAclService {
         saveRoleAclLog(roleId, originAclIdList, aclIdList);
     }
 
+    /**
+     * 更新权限
+     * @param roleId
+     * @param aclIdList
+     */
     @Transactional
     public void updateRoleAcls(int roleId, List<Integer> aclIdList) {
+        //删除旧权限
         sysRoleAclMapper.deleteByRoleId(roleId);
 
         if (CollectionUtils.isEmpty(aclIdList)) {

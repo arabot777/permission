@@ -31,6 +31,11 @@ public class SysRoleUserService {
     @Resource
     private SysLogMapper sysLogMapper;
 
+    /**
+     * 当前角色选中的用户列表
+     * @param roleId
+     * @return
+     */
     public List<SysUser> getListByRoleId(int roleId) {
         List<Integer> userIdList = sysRoleUserMapper.getUserIdListByRoleId(roleId);
         if (CollectionUtils.isEmpty(userIdList)) {
@@ -54,7 +59,7 @@ public class SysRoleUserService {
     }
 
     @Transactional
-    private void updateRoleUsers(int roleId, List<Integer> userIdList) {
+    public void updateRoleUsers(int roleId, List<Integer> userIdList) {
         sysRoleUserMapper.deleteByRoleId(roleId);
 
         if (CollectionUtils.isEmpty(userIdList)) {

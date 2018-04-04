@@ -26,7 +26,8 @@ public class SysRoleAclService {
     private SysRoleAclMapper sysRoleAclMapper;
     @Resource
     private SysLogMapper sysLogMapper;
-
+    @Resource
+    private SysLogService sysLogService;
     public void changeRoleAcls(Integer roleId, List<Integer> aclIdList) {
         //取出当前角色分配过得id
         List<Integer> originAclIdList = sysRoleAclMapper.getAclIdListByRoleIdList(Lists.newArrayList(roleId));
